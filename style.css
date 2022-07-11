@@ -1,5 +1,6 @@
  .header {
     background-color: #1f2937;
+    padding-top: 2px;
  }
 
  .headerLogo {
@@ -40,4 +41,16 @@
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
+ }
+
+ .logoLinks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+ }
+
+ li {
+    list-style: none;
+    display: inline-block
+    
  }
